@@ -6,7 +6,7 @@ API em Node.js para consulta de placas de veículos utilzando o pacote **npm** [
 
 - Projeto do usuário @bbarreto: [SINESP API](https://github.com/bbarreto/sinesp-api).
 
-# Tecnologias/padrões utlizados
+## Tecnologias/padrões utilizadas
 
 * MVC (Model-View-Controller)
 * Rotas
