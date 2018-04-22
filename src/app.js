@@ -13,6 +13,6 @@ const indexRoute = require('./routes/index-route');
 const placaRoute = require('./routes/placa-route');
 
 app.use('/', indexRoute);
-app.use('/placas', placaRoute);
+app.use('/api/placas', placaRoute);
 
 module.exports = app;
