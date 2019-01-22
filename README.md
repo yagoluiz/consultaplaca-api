@@ -1,10 +1,10 @@
 # Consulta Placa - API
 
-API em Node.js para consulta de placas de veículos utilzando o pacote **npm** [sinesp-nodejs](https://github.com/bbarreto/sinesp-api).
+API NodeJs para consulta de placas de veículos utilzando o pacote **npm** [sinesp-nodejs](https://www.npmjs.com/package/sinesp-nodejs).
 
-##  Informações sobre o SINESP API
+## Estrutura do projeto
 
-- Projeto do usuário @bbarreto: [SINESP API](https://github.com/bbarreto/sinesp-api).
+Implementado seguindo práticas do curso **Criando APIs com NodeJs** do [@andrebaltieri](https://github.com/andrebaltieri).
 
 ## Tecnologias/padrões utilizadas
 
@@ -14,9 +14,9 @@ API em Node.js para consulta de placas de veículos utilzando o pacote **npm** [
 * Async/Await
 * Nodemon
 
-## Instruções para execução do projeto
+# Instruções para execução do projeto
 
-**Node 9+** e **NPM 5+**
+**Node 8+** e **NPM 5+**
 
 **Executar o app**:
  - `npm install`
