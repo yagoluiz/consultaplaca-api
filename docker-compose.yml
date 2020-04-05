@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  consultaplaca-api:
+    image: consultaplaca-api
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3000
+    networks: 
+      - consultaplaca-api
+  networks:
+    consultaplaca-api:
+      driver: bridge

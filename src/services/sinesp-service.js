@@ -1,7 +1,10 @@
-'use-strict'
+const sinesp = require('sinesp-api');
 
-const sinesp = require('sinesp-nodejs');
+const getVehicle = async (plate) => {
+    const vehicle = await sinesp.search(plate);
+    return vehicle;
+};
 
-exports.consultaPlaca = async (numero) => {
-    return await sinesp.consultaPlaca(numero);
-}
+module.exports = {
+    getVehicle
+};

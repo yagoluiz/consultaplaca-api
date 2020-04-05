@@ -1,0 +1,4 @@
+### Get plate
+
+GET http://localhost:3000/api/v1/plates/MYQ1541 HTTP/1.1
+content-type: application/json

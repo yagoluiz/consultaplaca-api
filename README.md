@@ -1,23 +1,35 @@
 # Consulta Placa - API
 
-API NodeJs para consulta de placas de veículos utilzando o pacote **npm** [sinesp-nodejs](https://www.npmjs.com/package/sinesp-nodejs).
+API Node para consulta de placas de veículos utilizando o pacote **npm** [sinesp-api](https://www.npmjs.com/package/sinesp-api). 
 
-## Estrutura do projeto
-
-Implementado seguindo práticas do curso **Criando APIs com NodeJs** do [@andrebaltieri](https://github.com/andrebaltieri).
-
-## Tecnologias/padrões utilizadas
-
-* MVC (Model-View-Controller)
-* Rotas
-* Code Contract (validações)
-* Async/Await
-* Nodemon
+Qualquer inconsistência na API verificar [issues](https://github.com/Sorackb/sinesp-api/issues) do pacote.
 
 # Instruções para execução do projeto
 
-**Node 8+** e **NPM 5+**
+## VS Code
 
-**Executar o app**:
- - `npm install`
- - `nodemon .\bin\server.js`
+Executar projeto via *debugging*.
+
+### npm
+
+- Executar aplicação:
+
+`npm start`
+
+ou
+
+`npm run dev` (nodemon)
+
+### Container
+
+- Docker Compose:
+
+`docker-compose up -d`
+
+### Endpoints
+
+O arquivo **endpoints.http** contém o endpoint do projeto.
+
+No VS Code, instalar extensão [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) para executar endpoint.
+
+Caso contrário, executar endpoint na ferramenta de preferência.
